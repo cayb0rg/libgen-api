@@ -1,4 +1,4 @@
-const baseSearchUrl = 'http://gen.lib.rus.ec/search.php';
+const baseSearchUrl = 'http://libgen.rs/search.php';
 const axios = require('axios');
 const jsdom = require('jsdom');
 const { JSDOM } = jsdom;
@@ -26,3 +26,13 @@ scrapeIds = async (options) => {
 
 
 module.exports = scrapeIds;
+
+        // const nodes = dom.window.document.querySelectorAll('#tablelibgen tbody tr td:first-child b:first-child a:first-child');
+
+        // var ids = [];
+    
+        // nodes.forEach(node => {
+        //     ids.push(node.href.slice(32));
+        // })
+    
+        // return ids;

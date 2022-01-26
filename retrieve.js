@@ -1,5 +1,5 @@
 const axios = require('axios');
-const apiBaseURL = 'http://gen.lib.rus.ec/json.php';
+const apiBaseURL = 'http://libgen.rs/json.php';
 
 module.exports = async (ids, options) => {
     const response = await axios.get(apiBaseURL, {
