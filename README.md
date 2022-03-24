@@ -1,6 +1,6 @@
 # Library Genesis API
 
-A basic API endpoint for Library Genesis.
+A basic API endpoint for Library Genesis that I made for another project of mine, https://github.com/cayb0rg/libgen_api_implementation. This API endpoint may be used by anyone but please do so with caution.
 
 # Installation
 
